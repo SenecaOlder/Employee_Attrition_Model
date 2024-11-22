@@ -1,0 +1,18 @@
+<> Employee Attrition Model Walkthrough <>
+
+**For this project, I used the "Attrition Rate of a Company" data set by ANUJ BISWAS on Kaggle. Public domain license.**
+
+This project aims to build a predictive model adaptable to various purposes, such as analyzing retention rates, 
+identifying key retention variables, predicting customer purchase rates, and understanding the factors influencing these behaviors.
+
+For this project, I chose to develop a logistic regression model to predict whether employees are likely to leave a company. 
+While exploring other algorithms, such as Support Vector Machines (SVMs), I decided on logistic regression for the following reasons:
+
+1.) Scalability with Large Datasets: Logistic regression handles large datasets efficiently. In contrast, SVMs, while powerful and 
+mathematically sophisticated, can become computationally expensive with larger data sizes.
+
+2.) Interpretability: Logistic regression offers the advantage of interpretability. Its coefficients directly represent the impact 
+of individual variables on the outcome, allowing for actionable insights. This is more challenging with SVMs, as their kernel-based 
+approach often obscures variable-level interpretability. This approach ensures that the model is not only predictive but also provides 
+valuable insights into the dynamics of employee attrition, enabling stakeholders to make data-driven decisions.
+
